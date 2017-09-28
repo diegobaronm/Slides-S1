@@ -1,0 +1,18 @@
+\frametitle{ALICE.}
+A Large Ion Collider Experiment is located at point 2 of the LHC main ring.
+
+Designed for Heavy Ions Physics.
+\\
+\begin{minipage}{0.7\textwidth}% adapt widths of minipages to your needs
+\includegraphics[width=7cm]{6}
+\end{minipage}%
+\hfill%
+\begin{minipage}{0.3\textwidth}\raggedleft
+	\begin{itemize}
+		\item H=16m,W=16m,L=26m. Weight=10000 Tons.
+		\item Able to detect an extremely high number of tracks per event.
+		\item Main subsystem: Time proyection chamber, a 90 $m^3$ gas chamber operated in a soleniod of 0.5T.
+	\end{itemize}
+\end{minipage}
+\\
+ALICE collaboration counts around 1500 people from 154 physics institutes in 37 countries.

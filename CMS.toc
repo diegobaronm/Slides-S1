@@ -3,4 +3,4 @@
 \beamer@sectionintoc {2}{The problem.}{5}{0}{2}
 \beamer@sectionintoc {3}{First LHC.}{7}{0}{3}
 \beamer@sectionintoc {4}{Other experiments at LHC.}{13}{0}{4}
-\beamer@sectionintoc {5}{CMS.}{15}{0}{5}
+\beamer@sectionintoc {5}{CMS.}{17}{0}{5}

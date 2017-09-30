@@ -294,11 +294,16 @@ ALICE collaboration counts around 1500 people from 154 physics institutes in 37 
 	\end{minipage}
 	\hfill
 	\begin{minipage}{0.3\textwidth}\raggedleft
+		\justify
 		The commonly used momentum variables are:
 		\\
-		\textbf{$p_L$} Momenta in the z axis.
+		1. \textbf{$p_L$} Momenta in the z axis.
 		\\
-		\textbf{$p_T$} Momenta in te x-y plane.
+		2. \textbf{$p_T$} Momenta in te x-y plane.
+		\\
+		It is always preferable to use pseudorapidity instead of $\theta$:
+		$\eta=-\log\tan\left(\frac{\theta}{2}\right)$
+		
 	\end{minipage}
 	\textbf{Magnet}
 	The CMS has a large solenoid capable of producing a 4T constant magnetic field inside the 6m diameter and 13m long magnet. It weights 12000 and is made of 4 Layers of windings of NbTi cable at 4.45K to achieve superconducting state.
@@ -310,77 +315,124 @@ ALICE collaboration counts around 1500 people from 154 physics institutes in 37 
 % HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 
 \begin{frame}[fragile]{Tracker system.}
-	Located at point 8, it was designed to detect particles produced close to the beam direction.
-	Smaller than CMS and ATLAS and conically shaped.
-	
-	\vspace{0.5cm}
-	\begin{minipage}{0.7\textwidth}% adapt widths of minipages to your needs
-		\includegraphics[width=7cm]{8}
-	\end{minipage}%
-	\hfill%
-	\begin{minipage}{0.3\textwidth}\raggedleft
-		\begin{itemize}
-			\item H=10m,L=21m,W=13m. Weight=4500 Tons.		
-			\item It has a system to detect different type of Hadrons.
-			\item Very precise vertex locator system.
-			
-		\end{itemize}
-	\end{minipage}
+	Designed with two technologies: Pixels and Silicon strips, 
+	the pixels have a cell size of 100*150 $\mu m^2$ and the system achieves a resolution of 9$\mu m$.
 	\\
-	\vspace{0.5cm}
-	LHCb collaboration counts around 700 people from 69 physics institutes in 17 countries.
+	The efficiency is higher than 98\% for all layer and disks, but it degrades with integrated luminosity.
+	\\
+	Designed to reconstruc high $p_T$ leptons and as consequence photons, it can reconstruct secondary vertexes and has an efficiency from 85 to 95\% for particles with $p_T$ between 0.1-10 GeV.
+	\\ Constructed for being highly resistant to radiation, its expected to last for 10 years. 
+	
+
+		\includegraphics[width=10.5cm]{11}
+
+\end{frame}
+
+% HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+\begin{frame}[fragile]{Tracker system.}
+	
+	
+	\includegraphics[width=10.5cm]{12}
+	
+\end{frame}
+
+
+% HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+\begin{frame}[fragile]{Electromagnetic Calorimeter.}
+	The CMS ECAL system was designed to stop photons and electrons and measure their energy, it is a cylindrical hermetic calorimeter made of 61200 crystals in the barrel and 7324 in the endcap.\\
+	The crystal material is lead tungstate and was chosen for its short radiation depth, high density and fast emitting scintillation (25 ns). Its main disadventage is its highly dependent response to temperature. (2\%/C)
+	\\
+	This systems need constant correction because it loss of transparency due to radiation, the crystals aging is calibrated by a laser system.
+	\centering
+	\includegraphics[width=8cm]{13}
+
 \end{frame}
 
 % HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 
 \begin{frame}[fragile]{Electromagnetic Calorimeter.}
-	Located at point 8, it was designed to detect particles produced close to the beam direction.
-	Smaller than CMS and ATLAS and conically shaped.
 	
-	\vspace{0.5cm}
-	\begin{minipage}{0.7\textwidth}% adapt widths of minipages to your needs
-		\includegraphics[width=7cm]{8}
-	\end{minipage}%
-	\hfill%
-	\begin{minipage}{0.3\textwidth}\raggedleft
-		\begin{itemize}
-			\item H=10m,L=21m,W=13m. Weight=4500 Tons.		
-			\item It has a system to detect different type of Hadrons.
-			\item Very precise vertex locator system.
-			
-		\end{itemize}
-	\end{minipage}
-	\\
-	\vspace{0.5cm}
-	LHCb collaboration counts around 700 people from 69 physics institutes in 17 countries.
+	\centering
+	\includegraphics[width=8cm]{14}
+	
+\end{frame}
+
+
+% HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+
+\begin{frame}[fragile]{Hadronic Calorimeter.}
+	The CMS HCAL is the subsystem made for hadron detection, its subdivided as:
+	\begin{itemize}
+		\item Hadron Barrel Calorimeter (HB): Covering $|\eta| < 1.4$ is located between the	ECAL barrel and the magnet.
+		\item Hadron Endcap Calorimeter (HE): Extends the coverage of the barrel in the
+		region $1.4 <|\eta| < 3$.
+		\item Hadron Outer Calorimeter (HO): Located outside the magnet.
+		\item Hadron Forward Calorimeter (HF): Completes the coverage of the system
+		from $|\eta| = 3$ up to $|\eta| = 5.2$.
+	\end{itemize}
+	
+	
+	\includegraphics[width=9cm]{15}
 \end{frame}
 
 % HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 
 \begin{frame}[fragile]{Hadronic Calorimeter.}
-	Located at point 8, it was designed to detect particles produced close to the beam direction.
-	Smaller than CMS and ATLAS and conically shaped.
+	The system is made of two parts: absorbers to develop hadronic showers and scintillators to measure particles energy. 
+	\\
+	The HB absorber	is made of 40 mm thick steel plate, 8 layers of brass plates of 50.5 mm , 6 brass plates of 56.5 mm and a steel plate of 75 mm . The HE	uses the same absorber but with thicker plates of 79 mm. Between the absorber	plates a plastic scintillator, Kuraray SCSN81, 3.7 mm thick, is placed.
+	\\
+	\metroset{block=fill}
+	\begin{exampleblock}{}
+		The produced light in the HB is collected by optical fibers and
+		transferred to the Hybrid Photo Diodes (HPDs). These diodes were chosen because
+		of their small sensitivity to the magnetic field, an important feature because HCAL
+		is inside the solenoid magnet.
+		
+	\end{exampleblock}
 	
-	\vspace{0.5cm}
-	\begin{minipage}{0.7\textwidth}% adapt widths of minipages to your needs
-		\includegraphics[width=7cm]{8}
-	\end{minipage}%
-	\hfill%
-	\begin{minipage}{0.3\textwidth}\raggedleft
+	\metroset{block=fill}
+	\begin{exampleblock}{High radiation problem at HF}
+		The HF design is different from the rest of the HCAL . The most
+		important challengeis the high resistance to radiation from collisions:
+		while in the central rapidity region, 100 GeV are deposited in average, in the
+		forward region, is 760 GeV. For this reason a Cherenkov detector made of quartz fibers with a steel absorber was chosen. The light produced in the
+		HF is collected by photo multipliers.
+		
+	\end{exampleblock}
+
+	
+\end{frame}
+
+
+
+% HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+\begin{frame}[fragile]{Muon Chambers.}
+	The muon detector systems is located at the most exterior layer of the dectector due to the high prenetration power of muons. The cambers are made of three subsystems:
+	
+
 		\begin{itemize}
-			\item H=10m,L=21m,W=13m. Weight=4500 Tons.		
-			\item It has a system to detect different type of Hadrons.
-			\item Very precise vertex locator system.
+			\item  Drift Tubes Chambers (DT): located in the region with $ |\eta|< 1.2$ and disposed in four layers. They consist of individual drift tubes of 50 $\mu$m of diameter anode wire with two electrode plates creating a drift electric field.
+			The wall of the cell act as cathode. The cells are filled with a gas mixture,
+			85\% Argon and 15\% CO2 .
+			
+						
+			\item  Cathode Strip Chambers (CSC): installed in the endcaps, provide a coverage up to $|\eta| = 2.4$ from $|\eta| = 0.9$. These chambers are multi-wire proportional chambers made of six planes of anode wires with 7 cathode planes with a gas in the middle and perpendicular to each other. This system is able to measure with a precision between the 75 $\mu$m and 150 $\mu$m.
+			\item  Resistive Plate Chambers (RPC): This subsystem is made of gaseous parallel plate detectors. This detector is specially useful for triggering as it is very fast and have a good position resolution. There are 480 RPC distributed in	6 layers in the barrel with the DT and in 3 layers in the endcaps with the CSC, and covers the region with$|\eta|  < 1.6$.
 			
 		\end{itemize}
-	\end{minipage}
-	\\
-	\vspace{0.5cm}
-	LHCb collaboration counts around 700 people from 69 physics institutes in 17 countries.
+		
+		
 \end{frame}
 
 % HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 \begin{frame}[fragile]{Muon Chambers.}
+	\includegraphics[width=11cm]{16}
+\end{frame}
+% HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+\begin{frame}[fragile]{Trigger.}
 	Located at point 8, it was designed to detect particles produced close to the beam direction.
 	Smaller than CMS and ATLAS and conically shaped.
 	

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.26)  30 SEP 2017 16:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.26)  1 OCT 2017 22:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1565,7 +1565,7 @@ Overfull \hbox (0.4pt too wide) in paragraph at lines 51--51
 ]
 \openout4 = `CMS.vrb'.
 
- (./CMS.vrb <1.jpg, id=72, 1621.05624pt x 1079.03125pt>
+ (./CMS.vrb <1.jpg, id=78, 1621.05624pt x 1079.03125pt>
 File: 1.jpg Graphic file (type jpg)
  <use 1.jpg>
 Package pdftex.def Info: 1.jpg used on input line 3.
@@ -1586,7 +1586,7 @@ Overfull \vbox (2.84949pt too high) detected at line 65
 ]
 \openout4 = `CMS.vrb'.
 
- (./CMS.vrb <2.jpg, id=84, 2125.9425pt x 1619.04875pt>
+ (./CMS.vrb <2.jpg, id=90, 2125.9425pt x 1619.04875pt>
 File: 2.jpg Graphic file (type jpg)
 
 <use 2.jpg>
@@ -1625,13 +1625,13 @@ Overfull \vbox (25.61139pt too high) detected at line 100
 ]
 \openout4 = `CMS.vrb'.
 
- (./CMS.vrb <3.jpg, id=95, 738.76pt x 770.88pt>
+ (./CMS.vrb <3.jpg, id=101, 738.76pt x 770.88pt>
 File: 3.jpg Graphic file (type jpg)
  <use 3.jpg>
 Package pdftex.def Info: 3.jpg used on input line 13.
 (pdftex.def)             Requested size: 122.91406pt x 128.24835pt.
 
-<4.png, id=96, 380.36842pt x 303.68776pt>
+<4.png, id=102, 380.36842pt x 303.68776pt>
 File: 4.png Graphic file (type png)
  <use 4.png>
 Package pdftex.def Info: 4.png used on input line 18.
@@ -1660,7 +1660,7 @@ Overfull \vbox (21.87234pt too high) detected at line 159
 ]
 \openout4 = `CMS.vrb'.
 
- (./CMS.vrb <5.png, id=111, 585.00664pt x 448.22777pt>
+ (./CMS.vrb <5.png, id=117, 585.00664pt x 448.22777pt>
 File: 5.png Graphic file (type png)
  <use 5.png>
 Package pdftex.def Info: 5.png used on input line 5.
@@ -1678,7 +1678,7 @@ Overfull \hbox (0.4pt too wide) in paragraph at lines 171--171
 \openout4 = `CMS.vrb'.
 
  (./CMS.vrb
-<6.jpg, id=123, 833.0322pt x 537.207pt>
+<6.jpg, id=129, 833.0322pt x 537.207pt>
 File: 6.jpg Graphic file (type jpg)
  <use 6.jpg>
 Package pdftex.def Info: 6.jpg used on input line 7.
@@ -1698,7 +1698,7 @@ Overfull \hbox (0.4pt too wide) in paragraph at lines 200--200
  <./6.jpg>]
 \openout4 = `CMS.vrb'.
 
- (./CMS.vrb <7.jpg, id=129, 802.6788pt x 561.7788pt>
+ (./CMS.vrb <7.jpg, id=135, 802.6788pt x 561.7788pt>
 File: 7.jpg Graphic file (type jpg)
  <use 7.jpg>
 Package pdftex.def Info: 7.jpg used on input line 6.
@@ -1713,7 +1713,7 @@ Overfull \hbox (0.4pt too wide) in paragraph at lines 227--227
  <./7.jpg>]
 \openout4 = `CMS.vrb'.
 
- (./CMS.vrb <8.jpg, id=135, 1204.5pt x 647.41875pt>
+ (./CMS.vrb <8.jpg, id=141, 1204.5pt x 647.41875pt>
 File: 8.jpg Graphic file (type jpg)
  <use 8.jpg>
 Package pdftex.def Info: 8.jpg used on input line 7.
@@ -1735,7 +1735,7 @@ Overfull \hbox (0.4pt too wide) in paragraph at lines 251--251
 ]
 \openout4 = `CMS.vrb'.
 
- (./CMS.vrb <9.png, id=146, 842.13568pt x 615.06383pt>
+ (./CMS.vrb <9.png, id=152, 842.13568pt x 615.06383pt>
 File: 9.png Graphic file (type png)
 
 <use 9.png>
@@ -1756,7 +1756,7 @@ Overfull \vbox (14.34451pt too high) detected at line 277
 \openout4 = `CMS.vrb'.
 
  (./CMS.vrb
-<10.png, id=152, 851.26453pt x 490.5134pt>
+<10.png, id=159, 851.26453pt x 490.5134pt>
 File: 10.png Graphic file (type png)
  <use 10.png>
 Package pdftex.def Info: 10.png used on input line 13.
@@ -1781,7 +1781,7 @@ Overfull \vbox (12.48178pt too high) detected at line 313
 \openout4 = `CMS.vrb'.
 
  (./CMS.vrb
-<11.png, id=162, 903.375pt x 426.59375pt>
+<11.png, id=168, 903.375pt x 426.59375pt>
 File: 11.png Graphic file (type png)
  <use 11.png>
 Package pdftex.def Info: 11.png used on input line 11.
@@ -1800,7 +1800,7 @@ Overfull \vbox (8.26924pt too high) detected at line 329
  <./11.png>]
 \openout4 = `CMS.vrb'.
 
- (./CMS.vrb <12.png, id=168, 862.67558pt x 602.76256pt>
+ (./CMS.vrb <12.png, id=174, 862.67558pt x 602.76256pt>
 File: 12.png Graphic file (type png)
 
 <use 12.png>
@@ -1817,7 +1817,7 @@ Overfull \hbox (0.4pt too wide) in paragraph at lines 338--338
 \openout4 = `CMS.vrb'.
 
  (./CMS.vrb
-<13.png, id=174, 742.47916pt x 485.13159pt>
+<13.png, id=180, 742.47916pt x 485.13159pt>
 File: 13.png Graphic file (type png)
  <use 13.png>
 Package pdftex.def Info: 13.png used on input line 7.
@@ -1837,7 +1837,7 @@ Overfull \vbox (11.66054pt too high) detected at line 351
 \openout4 = `CMS.vrb'.
 
  (./CMS.vrb
-<14.png, id=180, 643.58337pt x 692.71564pt>
+<14.png, id=186, 643.58337pt x 692.71564pt>
 File: 14.png Graphic file (type png)
  <use 14.png>
 Package pdftex.def Info: 14.png used on input line 4.
@@ -1857,7 +1857,7 @@ Overfull \vbox (18.97267pt too high) detected at line 360
 \openout4 = `CMS.vrb'.
 
  (./CMS.vrb
-<15.png, id=186, 763.01906pt x 454.3784pt>
+<15.png, id=192, 763.01906pt x 454.3784pt>
 File: 15.png Graphic file (type png)
  <use 15.png>
 Package pdftex.def Info: 15.png used on input line 13.
@@ -1896,7 +1896,7 @@ Overfull \hbox (0.4pt too wide) in paragraph at lines 428--428
 ]
 \openout4 = `CMS.vrb'.
 
- (./CMS.vrb <16.png, id=203, 782.03748pt x 574.31586pt>
+ (./CMS.vrb <16.png, id=209, 782.03748pt x 574.31586pt>
 File: 16.png Graphic file (type png)
  <use 16.png>
 Package pdftex.def Info: 16.png used on input line 2.
@@ -1920,22 +1920,38 @@ Overfull \vbox (3.82674pt too high) detected at line 433
  <./16.png (PNG copy)>]
 \openout4 = `CMS.vrb'.
 
- (./CMS.vrb
-File: 8.jpg Graphic file (type jpg)
- <use 8.jpg>
-Package pdftex.def Info: 8.jpg used on input line 7.
-(pdftex.def)             Requested size: 199.16928pt x 107.04669pt.
-
-Overfull \hbox (16.13309pt too wide) in paragraph at lines 12--13
-\OT1/cmss/m/n/8 H=10m,L=21m,W=13m. 
- []
-
-)
-Overfull \hbox (0.4pt too wide) in paragraph at lines 455--455
+ (./CMS.vrb)
+Overfull \hbox (0.4pt too wide) in paragraph at lines 461--461
 [][]  
  []
 
+
+Overfull \vbox (17.11392pt too high) detected at line 461
+ []
+
 [28
+
+] [29
+
+]
+\openout4 = `CMS.vrb'.
+
+ (./CMS.vrb)
+Overfull \hbox (0.4pt too wide) in paragraph at lines 479--479
+[][]  
+ []
+
+[30
+
+]
+\openout4 = `CMS.vrb'.
+
+ (./CMS.vrb)
+Overfull \hbox (0.4pt too wide) in paragraph at lines 498--498
+[][]  
+ []
+
+[31
 
 ]
 \tf@nav=\write6
@@ -1947,13 +1963,13 @@ Overfull \hbox (0.4pt too wide) in paragraph at lines 455--455
 \tf@snm=\write8
 \openout8 = `CMS.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 456.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 456.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 500.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 500.
  (./CMS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 456.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 456.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 500.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 500.
 Package rerunfilecheck Info: File `CMS.out' has not changed.
-(rerunfilecheck)             Checksum: B37F698FD86C37D4045B378A32D7594E;237.
+(rerunfilecheck)             Checksum: CB7F9EBDB67E3ADA819FA9B3FD1E181D;284.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1962,13 +1978,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 456.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 500.
  ) 
 Here is how much of TeX's memory you used:
- 30723 strings out of 493029
- 735318 string characters out of 6136234
+ 30745 strings out of 493029
+ 735505 string characters out of 6136234
  943392 words of memory out of 5000000
- 33480 multiletter control sequences out of 15000+600000
+ 33491 multiletter control sequences out of 15000+600000
  11549 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,13n,98p,1749b,737s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1980,10 +1996,10 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy8.pfb>
-Output written on CMS.pdf (28 pages, 7736015 bytes).
+Output written on CMS.pdf (31 pages, 7740346 bytes).
 PDF statistics:
- 257 PDF objects out of 1000 (max. 8388607)
- 195 compressed objects within 2 object streams
- 63 named destinations out of 1000 (max. 500000)
- 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 281 PDF objects out of 1000 (max. 8388607)
+ 215 compressed objects within 3 object streams
+ 70 named destinations out of 1000 (max. 500000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 

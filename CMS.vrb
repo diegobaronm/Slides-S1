@@ -1,20 +1,15 @@
-\frametitle{Trigger.}
-Located at point 8, it was designed to detect particles produced close to the beam direction.
-	Smaller than CMS and ATLAS and conically shaped.
+\frametitle{Bibliography.}
 
-	\vspace{0.5cm}
-	\begin{minipage}{0.7\textwidth}% adapt widths of minipages to your needs
-		\includegraphics[width=7cm]{8}
-	\end{minipage}%
-	\hfill%
-	\begin{minipage}{0.3\textwidth}\raggedleft
-		\begin{itemize}
-			\item H=10m,L=21m,W=13m. Weight=4500 Tons.
-			\item It has a system to detect different type of Hadrons.
-			\item Very precise vertex locator system.
+	\begin{itemize}
+		\item Search for a vector-like quark T decaying
+		into top$+$Higgs in single production mode
+		in full hadronic final state using
+		CMS data collected at 8 TeV, José David Ruiz.
 
-		\end{itemize}
-	\end{minipage}
-	\\
-	\vspace{0.5cm}
-	LHCb collaboration counts around 700 people from 69 physics institutes in 17 countries.
+		\item Concept of Luminosity, Werner Herr and Bruno Muratori.
+		\item Study of the inclusive beauty production at CMS and construction and comissioning of the CMS pixel barrel detector, Caminada,L.
+		\item https://cms.cern/detector.
+	\end{itemize}
+
+
+

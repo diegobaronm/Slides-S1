@@ -30,7 +30,7 @@
 
 \begin{frame}[fragile]{Motivation}
 
-Particle physics experiments can be made studying cosmic rays, solar neutrinos, dark matter in galaxies, etc. 
+Particle physics experiments can be done studying cosmic rays, solar neutrinos, dark matter in galaxies, etc. 
 
 \begin{exampleblock}{But don't forget accelerators... }
 This experiments are the most popular because we can control almost all the initial conditions:
@@ -433,25 +433,69 @@ ALICE collaboration counts around 1500 people from 154 physics institutes in 37 
 \end{frame}
 % HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 \begin{frame}[fragile]{Trigger.}
-	Located at point 8, it was designed to detect particles produced close to the beam direction.
-	Smaller than CMS and ATLAS and conically shaped.
-	
-	\vspace{0.5cm}
-	\begin{minipage}{0.7\textwidth}% adapt widths of minipages to your needs
-		\includegraphics[width=7cm]{8}
-	\end{minipage}%
-	\hfill%
-	\begin{minipage}{0.3\textwidth}\raggedleft
-		\begin{itemize}
-			\item H=10m,L=21m,W=13m. Weight=4500 Tons.		
-			\item It has a system to detect different type of Hadrons.
-			\item Very precise vertex locator system.
+	LHC was designed to collect data from collisions every 25 ns, each single event produces 0.5-1 MB of information thus the total data flow is 1PB/s.	An on-line selection must be done, the trigger system of CMS does the job in two stages: 
+		\metroset{block=fill}
+		\begin{exampleblock}{Level 1 trigger (L1)}
+			\begin{itemize}
+				\item Hardware based, it reduces the data flow by 2 order of magnitude. It is an extremely fast and wholly automatic process that looks for simple signs of interesting physics, e.g. particles with a large amount of energy or in unusual combinations.
+				\item The latency time that the L1 disposes between the
+				collision and the taking of the decision is about 3.2 $\mu$s. Therefore, the front-end
+				memory in the cards should be able to keep in memory up to 128 bunch crossings.
+			\end{itemize}
+
 			
-		\end{itemize}
-	\end{minipage}
-	\\
-	\vspace{0.5cm}
-	LHCb collaboration counts around 700 people from 69 physics institutes in 17 countries.
+		\end{exampleblock}
+			\metroset{block=fill}
+			\begin{exampleblock}{High level trigger (HLT)}
+				\begin{itemize}
+					\item 	A set of filtering algorithms that run in CPU farms of about $10^4$ cores. 
+					\item During 2012, the decision taking process was 110 ms, around $10^5$ times more than for the L1.
+					\item  There is a constant development of HLT paths focusing on different analysis requirements in order to obtain the best possible selection efficiency for specific signal types.
+					
+				\end{itemize}
+				
+			
+				
+				
+			\end{exampleblock}
 \end{frame}
+
+
+\section{Conclusions.}
+
+
+% HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+\begin{frame}[fragile]{Conclusions.}
+
+		\begin{itemize}
+			\item CMS has an extremely precise quantity of systems capable of detecting electrons, photons, hadrons and muons, reconstructing vertices, tracks and energy for this kind of particles.
+			\item Systems like the ECAL, HCAL and Tracker have to be recalibrated constantly because of the damage make to its subsystems by radiation 
+			\item Due to the big amount of data produced every second by the collisions , data has to be selected in an on-line process, the CMS Trigger system does this job reducing the data flow by $10^5$ orders of magnitude. 
+			\item CMS detector is an incredibly complex experiment and its important for experimental particle physicists to know how this detector works in order to know how and where to search for new physics.
+		\end{itemize}
+		
+		
+	
+\end{frame}
+
+
+% HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
+\begin{frame}[fragile]{Bibliography.}
+	
+	\begin{itemize}
+		\item Search for a vector-like quark T decaying
+		into top$+$Higgs in single production mode
+		in full hadronic final state using
+		CMS data collected at 8 TeV, José David Ruiz.
+		
+		\item Concept of Luminosity, Werner Herr and Bruno Muratori.
+		\item Study of the inclusive beauty production at CMS and construction and comissioning of the CMS pixel barrel detector, Caminada,L.
+		\item https://cms.cern/detector.
+	\end{itemize}
+	
+	
+	
+\end{frame}
+
 \end{document}
 

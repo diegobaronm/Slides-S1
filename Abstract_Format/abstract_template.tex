@@ -1,0 +1,215 @@
+% This is a LaTeX template 
+% Last update: 22 Oct 2014
+
+\documentclass[a4paper,11pt]{article}
+
+%%%%%%% PACKAGES (PLEASE INSERT YOUR OWN TITLE, AUTHORS, AND KEYWORDS) %%%%%%%
+
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage[
+   pdftitle={CMS at LHC.}, %%% <- your title
+   pdfauthor={Author One, Author Two, and so on},         %%% <- your author list
+   pdfkeywords={photons, electrons, atoms, collisions},   %%% <- your keywords
+   colorlinks,
+   linkcolor=blue,
+   urlcolor=blue,
+   citecolor=blue,
+   a4paper=true,
+%   dvipdfm           % Uncomment if using dvipdfm to convert dvi into pdf
+   ]{hyperref}
+
+%%%\usepackage[para]{footmisc} %%% <- uncomment if you want several e-mail addresses to be inlined in the footer
+
+%%%%%%%%%%%%%%%%%%%% DIMENSIONS (do not change) %%%%%%%%%%%%%%%%%%%%
+
+\voffset=0.0cm
+\hoffset=0.0cm
+
+\topskip=0cm
+\topmargin=-0.54cm
+\oddsidemargin=-0.54cm
+\evensidemargin=2.0cm
+
+\textwidth=17.0cm
+\textheight=25.7cm
+\headheight=0cm
+\headsep=0cm
+\footskip=0cm
+
+%%%%%%%%%%%%%%%%%%%% MACROS (do not change) %%%%%%%%%%%%%%%%%%%%
+
+\renewcommand\refname{\normalsize References}
+\renewcommand\baselinestretch{1}
+\pagestyle{empty}
+\newcommand{\abstracttitle}[1]{
+ \begin{center}{\Large {\bf #1}}\end{center}
+}
+\newcommand{\authors}[1]{
+ \vspace*{-0.3cm}
+ \begin{center} {\bf #1} \end{center}
+ \vspace*{-0.3cm}
+}
+\newcommand{\addresses}[1]{
+ \begin{center} {\small #1} \end{center}
+}
+\newcommand{\synopsis}[1]{
+ \begin{center}
+ \setstretch{0.75}
+ \begin{minipage}[t]{16cm}
+   {\footnotesize {\bf Synopsis} #1 }
+ \end{minipage}
+ \setstretch{1.0}
+ \end{center}
+}
+\newcommand{\abstracttext}[1]{
+ \vspace*{-0.3cm}
+ \columnsep0.75cm
+ \begin{multicols}{2} #1 \end{multicols}
+}
+% Use \picturelportrait{0} when you want to include a portrait figure!
+\newcommand{\pictureportrait}[2]{
+ \vspace*{0.5cm}
+ \centerline{
+  \includegraphics*[width=7.8cm,angle=#1]{#2}
+%%%  \includegraphics*[width=7.8cm,height=9cm,angle=#1]{#2}
+ }
+}
+% Use \picturelandscape{0} when you want to include a landscape figure!
+\newcommand{\picturelandscape}[2]{
+ \vspace*{0.5cm}
+ \centerline{
+  \includegraphics*[width=7.8cm,angle=#1]{#2}
+%%%  \includegraphics*[width=7.8cm,height=5.5cm,angle=#1]{#2}
+ }
+}
+\newcommand{\capt}[2]{
+ \vspace*{-0.3cm}
+ \begin{center}
+ \begin{minipage}[t]{7.8cm} {\small {\bf Figure~#1}.~#2} \end{minipage}
+ \end{center}
+ \vspace*{0.3cm}
+}
+
+\newcommand{\captTab}[2]{
+ \vspace*{-0.1cm}
+ \begin{center}
+ \begin{minipage}[t]{7.8cm} {\small {\bf Table~#1}.~ #2} \end{minipage}
+ \end{center}
+ \vspace*{0.1cm}
+}
+
+\newcommand{\writeto}[1]{
+ \hspace*{-2.5mm} \footnote{E-mail: \href{mailto:#1}{#1}}\hspace*{-1.5mm}
+}
+
+%%%%%%%%%%%%%%%%% USER'S INPUT IS EXPECTED BELOW THIS LINE %%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+
+
+
+\abstracttitle{
+CMS at LHC
+}
+
+\authors{
+Diego Baron$^{\ast}$\writeto{diego.baron@udea.edu.co}
+
+
+}
+
+\addresses{
+$^\ast$ Instituto de F\'{\i}sica, Universidad de Antioquia, Medell\'{\i}n, Colombia \\
+}
+
+\synopsis{
+For experimental particle physicists is crucial to understand how an experiment like LHC is carried out, in order to know how and where to search for new physics. This seminar is focused in explaining how the LHC and in particular the CMS experiment works, we are goint to describe the process of collision, from acceleration chain of protons to what kind of detectors are mounted in order to reconstruct the collisions and trayectories of particles like photons, electrons, muons and hadrons. We are also going to describe the limitations of the CMS detector and how radiation damage involve constant recalibration of the systems.
+}
+
+
+
+\abstracttext{This is a sample abstract. Its overall
+layout is similar to that used for J. Phys.: Conf. Ser.~\cite{diaz09}. 
+Preparation instructions are given below.
+
+1. Abstracts should be written in English. The abstract should fit on
+one A4 page without the page number. The abstract should be submitted in PDF
+format through the conference web site. Files larger than 5 Mb will be rejected.
+
+2. After submitted your abstract, you can examine how it will look
+online. It is your responsibility to check that the abstract is
+correctly formatted and readable. No changes to the submitted
+abstracts will be made by the conference organizers. Incorrectly
+formatted abstracts will be rejected.
+
+3. Abstracts should be formatted for A4 size ($210\times 297$~mm,
+i.e., $8.268\times 11.693$ inches). All text and figures must fit
+within top, bottom and side margins of 2~cm. Use 11~pt Roman font
+(LaTeX default) or a similar font such as Times New Roman throughout
+the abstract. This and other font sizes, as used in the Word
+template, are listed in Table~1.
+
+
+
+
+\begin{center}
+\captTab{1}{Font sizes to be used in the abstract.}
+\begin{tabular}[b]{lcccc}
+\hline
+   & Title & Synopsis & Body & Refs. \\
+\hline
+Size & 14 pt & 10 pt & 11 pt & 10 pt \\
+\hline
+\end{tabular}
+\end{center}
+
+4. The title should be typed in 14~pt boldface font and centered.
+If necessary, use a second line, single-spaced just below the first.
+
+5. Leave 18 pt before the names of the authors (11 pt bold) and again before
+the single-spaced affiliations and addresses (10 pt).
+
+6. The abstract must have a short synopsis (at most 700 characters long)
+that is 16~cm wide. Use single-spaced lines with 10~pt Roman
+font for the synopsis. After 18~pt vertical spacing, the body text is typed
+in two-column format with 0.75~cm column separation. The text should be
+single-spaced and the first line of each paragraph should be indented by
+3 spaces.
+
+7. Figures will be shown in colour in electronic versions of the abstract.
+Give each figure a separate caption (10 pt) and, like a table caption, it
+should be
+concise (see figure~1). If you choose to submit colour figures remember that
+most printouts from the web will be in black and white. It is your
+responsibility to ensure that the figures are easy to read and understand
+even in grayscale mode. When including figures, pay close attention to the
+file sizes, to avoid producing an oversized final PDF abstract file.
+
+%\picturelandscape{0}{ToledoTempJuly.eps}
+\picturelandscape{0}{ToledoTempJuly.pdf} % Use this for pdflatex
+\capt{1}{Average temperatures in Toledo, in July 2014.}
+
+8. References in the text should be given by numbers in square
+brackets~\cite{diaz09} (``Vancouver system''). The list of references in 10~pt
+font follows the last line of the text with one extra line inserted. Follow
+the style of the Institute of Physics, as used in Journal of Physics~B.
+
+
+\begingroup
+\small
+\begin{thebibliography}{9}
+
+\bibitem{diaz09} C. D\'{\i}az {\em at al} 2009 {\em J. Phys. Conf. Ser.}
+\href{http://iopscience.iop.org/1742-6596/194/1/012058}{{\bf 194}
+012058}
+
+\end{thebibliography}
+\endgroup
+}
+  % end of the body
+
+%\fi
+\end{document}

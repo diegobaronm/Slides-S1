@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.26)  1 OCT 2017 22:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.26)  6 OCT 2017 22:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1887,7 +1887,7 @@ Overfull \hbox (0.4pt too wide) in paragraph at lines 407--407
 \openout4 = `CMS.vrb'.
 
  (./CMS.vrb)
-Overfull \hbox (0.4pt too wide) in paragraph at lines 428--428
+Overfull \hbox (0.4pt too wide) in paragraph at lines 427--427
 [][]  
  []
 
@@ -1902,17 +1902,17 @@ File: 16.png Graphic file (type png)
 Package pdftex.def Info: 16.png used on input line 2.
 (pdftex.def)             Requested size: 312.9803pt x 229.84496pt.
 )
-Overfull \hbox (5.69043pt too wide) in paragraph at lines 2--433
+Overfull \hbox (5.69043pt too wide) in paragraph at lines 2--432
 [][]  
  []
 
 
-Overfull \hbox (0.4pt too wide) in paragraph at lines 433--433
+Overfull \hbox (0.4pt too wide) in paragraph at lines 432--432
 [][]  
  []
 
 
-Overfull \vbox (3.82674pt too high) detected at line 433
+Overfull \vbox (3.82674pt too high) detected at line 432
  []
 
 [27
@@ -1921,12 +1921,12 @@ Overfull \vbox (3.82674pt too high) detected at line 433
 \openout4 = `CMS.vrb'.
 
  (./CMS.vrb)
-Overfull \hbox (0.4pt too wide) in paragraph at lines 461--461
+Overfull \hbox (0.4pt too wide) in paragraph at lines 460--460
 [][]  
  []
 
 
-Overfull \vbox (17.11392pt too high) detected at line 461
+Overfull \vbox (17.11392pt too high) detected at line 460
  []
 
 [28
@@ -1996,7 +1996,7 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy8.pfb>
-Output written on CMS.pdf (31 pages, 7740346 bytes).
+Output written on CMS.pdf (31 pages, 7740135 bytes).
 PDF statistics:
  281 PDF objects out of 1000 (max. 8388607)
  215 compressed objects within 3 object streams
